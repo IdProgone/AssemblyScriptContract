@@ -4,7 +4,8 @@ export class Greeting {
 
 getGreeting(accoundId: string): string | null {
 
-   return storage.get<string>(accoundId, "Greeting Not available");
+   return storage.get<string>(accountId, 
+    "Greeting Not available");
 
 }
 
